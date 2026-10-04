@@ -70,7 +70,6 @@ fn main() {
         
         else if a == "y" || a == "Y" {
             continue 'main_loop;
-            break 'inner_loop;
         }
         }
         println!("\n ---Your Receipt---");
@@ -78,8 +77,15 @@ fn main() {
         for(item, price) in &order {
             println!("{} - ₦{}",item,price);
             total += price;
+        } let mut discount = 0;
+        if total > 10_000 {
+            discount = (total * 10) / 100 ;
+            total = total - discount;
         }
         println!("------------------------------");
+        if discount > 1 {
+            println!("Total is over ₦10,000 so you've been given a 10% discount!");
+        }
         println!("Total: ₦{}",total);
         println!("\nThank you for your patronage!");
         break;
