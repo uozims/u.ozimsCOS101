@@ -9,7 +9,9 @@ fn main() {
     file.write_all("Goldberg,Williams,Malta Gold\n".as_bytes()).expect("write failed");
     file.write_all("Gulder,,Fayrouz\n".as_bytes()).expect("write failed");
     file.write_all("Heineken,,\n".as_bytes()).expect("write failed");
-    file.write_all("Star,,".as_bytes()).expect("write failed");
+    file.write_all("Star,,\n".as_bytes()).expect("write failed");
+
+    println!("\nData written to file.");
 
    
 
