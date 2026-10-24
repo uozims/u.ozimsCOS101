@@ -56,18 +56,17 @@ fn definite(student_info: &mut Vec<(String, String, String, u16)>) {
                 "accounting" => "ACC",
                 "computer" | "computer science" => "CSC",
                 "economics" => "ECO",
-                "electrical" | "electrical engineering" | "electronic engineering" 
-                | "electrical and electronic engineering" | "electronic and electrical engineering" => "EEE",
+                "electrical" | "electrical engineering" | "electronic engineering" | "electrical and electronic engineering" | "electronic and electrical engineering" => "EEE",
                 "mechanical" | "mechanical engineering" => "MEE",
                 "software" | "software engineering" => "SEN",
                 "mechatronics" | "mechatronics engineering" => "MCT",
                 "data" | "data science" => "DS",
-                "business" | "business administration" | "business admin" => "BMAS",
+                "business" | "business administration" | "business admin" => "BUA",
                 "finance" => "FIN",
                 "film" | "film studies" | "film and multimedia" | "film and multimedia studies" => "FMM",
                 "mass comm" | "mass comms" | "mass communication" | "mass communications" => "MCM",
                 "strategic comm" | "strategic communication" | "strategic communications" | "strategic comms" => "STC",
-                "information science" | "information" | "info science" => "ISMS",
+                "information science and media studies" | "information and media" | "info science" | "information" | "information and media studies" | "information science and media" => "ISMS",
                 _ => {
                     println!("Please input a valid department");
                     continue; 
@@ -154,18 +153,17 @@ fn indefinite(student_info: &mut Vec<(String, String, String, u16)>) {
                 "accounting" => "ACC",
                 "computer" | "computer science" => "CSC",
                 "economics" => "ECO",
-                "electrical" | "electrical engineering" | "electronic engineering" 
-                | "electrical and electronic engineering" | "electronic and electrical engineering" => "EEE",
+                "electrical" | "electrical engineering" | "electronic engineering" | "electrical and electronic engineering" | "electronic and electrical engineering" => "EEE",
                 "mechanical" | "mechanical engineering" => "MEE",
                 "software" | "software engineering" => "SEN",
                 "mechatronics" | "mechatronics engineering" => "MCT",
                 "data" | "data science" => "DS",
-                "business" | "business administration" | "business admin" => "BMAS",
+                "business" | "business administration" | "business admin" => "BUA",
                 "finance" => "FIN",
                 "film" | "film studies" | "film and multimedia" | "film and multimedia studies" => "FMM",
                 "mass comm" | "mass comms" | "mass communication" | "mass communications" => "MCM",
                 "strategic comm" | "strategic communication" | "strategic communications" | "strategic comms" => "STC",
-                "information science" | "information" | "info science" => "ISMS",
+                "information science and media studies" | "information and media" | "info science" | "information" | "information and media studies" | "information science and media" => "ISMS",
                 _ => {
                     println!("Please input a valid department");
                     continue; 
