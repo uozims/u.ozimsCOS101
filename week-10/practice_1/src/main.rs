@@ -4,7 +4,7 @@ fn main(){
     // vector v owns the object in heap
 
     //only a single variable owns the heap memory at any given time
-    let v2 = v;
+    let v2 = v.clone();
     // here two variables owns heap value,
     //two pointers to the same content is not allowed in rust
 
